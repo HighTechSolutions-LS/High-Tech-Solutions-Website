@@ -1,0 +1,73 @@
+header {
+  padding: 200px 0 200px;
+  background-position: center;
+  background-image: url("../img/HTS\ Building\ Grass\ Greenifying.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.blur-bg {
+  opacity: 0.5;
+}
+
+section {
+  padding: 100px 0;
+}
+
+  p {
+  font-size: 1.2rem;
+}
+
+.black-p {
+  color: black;
+}
+
+h5 {
+  color: black;
+}
+
+
+
+.about-us {
+  padding-left: 75px;
+}
+
+.about-us-img {
+  max-width: 100%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+}
+
+/*.carousel-height {
+  height: 500px;
+  width: 100%;
+  padding-top: 5%;
+}*/
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
